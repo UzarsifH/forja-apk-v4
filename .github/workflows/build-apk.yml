@@ -24,7 +24,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: npm
+          
 
       # JDK 21 برای Capacitor/Android
       - name: Setup JDK 21
